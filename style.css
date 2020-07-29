@@ -1,0 +1,283 @@
+/*=================================
+Author: Mohammad Saifur Rahman
+Updated: 20 July, 2020
+Notes: Hand Coded for Fiverr
+===================================*/
+
+/* Common CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #222222;
+    font-weight: 300;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Common CSS End  */
+
+.watch-vide-area {
+    background: #f7352e;
+}
+
+.watch-vide-area a {
+    padding: 25px 0;
+    display: block;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.page2-content-area {
+    padding: 50px 0;
+    font-size: 18px;
+    color: #222;
+}
+
+.page2-content-area h4 {
+    color: #073763;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.page2-content-area img {
+    margin: 40px 0;
+}
+
+.page2-btn {
+    display: inline-block;
+    padding: 20px 50px;
+    background: #f2f2f2;
+    color: #073763;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.page2-btn .caret-icon {
+    display: inline-block;
+    background: #f7352e;
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    margin-top: -20px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.page2-btn:hover {
+    color: #f7352e;
+}
+
+.page2-btn-area {
+    text-align: center;
+}
+
+.footer-area {
+    background: #073763;
+    padding: 15px 0;
+}
+
+.footer-area,
+.footer-area a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-area li {
+    display: inline-block;
+}
+
+.footer-area li a {
+    display: block;
+    padding: 5px 12px;
+}
+
+.progress-text {
+    position: absolute;
+    left: 65%;
+    top: -30px;
+    color: #073763;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.progress-text.hundred {
+    left: auto;
+    right: 0;
+}
+
+.progress {
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    margin-top: 20px;
+    height: 10px;
+    background-color: #e1e1e1;
+}
+
+.progress-bar {
+    background-color: #f7352e;
+}
+
+.progress::after {
+    position: absolute;
+    content: "";
+    left: 65%;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: #f7352e;
+    border-radius: 50%;
+    margin-top: -5px;
+    box-shadow: 0 0 20px #fcccca;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.progress.hundred::after {
+    left: auto;
+    right: 0;
+}
+
+/* Book Area CSS Start */
+
+.book-text {
+    font-size: 18px;
+}
+
+.book-text b {
+    font-weight: 600;
+}
+
+.book-text p {
+    margin-bottom: 25px;
+}
+
+.purchase-button button {
+    background: #f5f5f5;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #073763;
+    position: relative;
+    z-index: 1;
+    padding-left: 70px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.book-cover-bottom {
+    padding: 70px 0;
+    font-size: 18px;
+}
+
+.purchase-button {
+    color: #073763;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.purchase-button button span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #f8352d;
+    color: #fff;
+    font-size: 22px;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.book-icon {
+    background: #f8352e;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.purchase-button button:hover {
+    background-color: #f8352e;
+    color: #fff;
+}
+
+
+/* Book Area CSS End */
